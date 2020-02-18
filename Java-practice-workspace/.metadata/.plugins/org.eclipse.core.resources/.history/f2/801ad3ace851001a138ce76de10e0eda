@@ -1,0 +1,9 @@
+package com.observer;
+
+public interface Observer {
+	 
+
+	public default void update(int temperature,int humidity,int precipitation) {
+		System.out.println("hello");
+	}
+}

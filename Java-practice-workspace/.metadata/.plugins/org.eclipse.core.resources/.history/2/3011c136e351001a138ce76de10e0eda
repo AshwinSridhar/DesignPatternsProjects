@@ -1,0 +1,9 @@
+package com.subject;
+
+import com.observer.Observer;
+
+public interface SubjectSubject {
+	public void addObservers(Observer observer);
+	public void removeObserver(Observer observer);
+	public void notifyObservers();
+}

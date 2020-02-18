@@ -1,0 +1,16 @@
+package com.observer;
+
+public interface Observer {
+	 int temperature;
+	 int humidity;
+	 int precipitation;
+	
+	public default void update(int temperature,int humidity,int precipitation) {
+		
+		this.temperature = temperature;
+		this.humidity = humidity;
+		this.precipitation = precipitation;
+		
+		display();
+	}
+}

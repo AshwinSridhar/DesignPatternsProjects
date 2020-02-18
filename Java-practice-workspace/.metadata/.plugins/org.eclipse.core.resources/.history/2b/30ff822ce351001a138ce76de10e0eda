@@ -1,0 +1,7 @@
+package com.subject;
+
+import com.observer.Observer;
+
+public interface SubjectInterface {
+	public void addObservers(Observer observer);
+}
