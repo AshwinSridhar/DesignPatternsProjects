@@ -1,5 +1,0 @@
-package com.display;
-
-public interface Display {
-	public void dispaly();
-}
